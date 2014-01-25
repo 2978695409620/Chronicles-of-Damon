@@ -82,6 +82,7 @@ public class DamonWeek {
 					System.out.println("Damon slept through the day. He did not get to do anything.");
 					timeblock = 0;
 				}
+				timeblock -= 1;
 					
 			}
 			else
@@ -105,6 +106,7 @@ public class DamonWeek {
 					System.out.println("Damon slept through the day. He did not get to do anything.");
 					timeblock = 0;
 				}
+				timeblock -= 1;
 			}
 		}
 			
@@ -143,6 +145,7 @@ public class DamonWeek {
 					System.out.println("Damon slept through the day. He did not get to do anything.");
 					timeblock = 0;
 				}
+				timeblock -= 1;
 					
 			}
 			else
@@ -167,6 +170,7 @@ public class DamonWeek {
 					timeblock = 0;
 				}
 			}
+			timeblock -= 1;
 			
 		}
 			
@@ -191,7 +195,7 @@ public class DamonWeek {
 				if (choice == 1){
 					System.out.println("");
 					DamonStats.Knowledge ++;
-					DamonActions.CLASS();
+					System.out.println("Damon studied quite hard. He learned some new stuff.");
 				}
 				
 				else if (choice == 2)
@@ -206,6 +210,7 @@ public class DamonWeek {
 					System.out.println("Damon slept through the day. He did not get to do anything.");
 					timeblock = 0;
 				}
+				timeblock -= 1;
 					
 			}
 			else
@@ -229,6 +234,7 @@ public class DamonWeek {
 					System.out.println("Damon slept through the day. He did not get to do anything.");
 					timeblock = 0;
 				}
+				timeblock -= 1;
 			}
 		}	
 	}
@@ -260,7 +266,8 @@ public class DamonWeek {
 			else {
 				System.out.println("Damon slept through the day. He did not get to do anything.");
 				timeblock = 0;
-			}	
+			}
+			timeblock -= 1;
 		}
 	}	
 }
