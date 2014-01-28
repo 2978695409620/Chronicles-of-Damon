@@ -10,7 +10,7 @@ public class DamonActions {
 		BufferedReader r = new BufferedReader (new InputStreamReader(System.in));
 		
 		while (timeblock > 0){
-			System.out.println("Damon is at the Gym. What exercose would Damon like to do?");
+			System.out.println("Damon is at the Gym. What exercise would Damon like to do?");
 			{
 				System.out.println("1. Bench");
 				System.out.println("2. Deadlift");
